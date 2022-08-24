@@ -6,7 +6,17 @@ body {
 
 h1 {
     font-family: 'Kumbh Sans', sans-serif;
+    font-size: 30px;
+    color: hsl(238, 29%, 16%);
+    position: absolute;
+    margin-top: -60px;
+}
+
+h2 {
+    font-family: 'Kumbh Sans', sans-serif;
     font-size: 14px;
+    color: hsl(238, 29%, 16%);
+    font-weight: 400;
 }
 
 p {
@@ -44,11 +54,58 @@ p {
     margin-left: -130px;
 }
 
-.card-content {
+.accordion {
     display: flex;
     flex-direction: column;
     justify-content: right;
     align-items: left;
     margin-right: 90px;
     margin-left: 90px;
+    position: relative;
+}
+
+.question {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+    cursor: pointer;
+}
+
+.arrow {
+    width: 12px;
+    height: 8px;
+}
+
+.question h2:active {
+    color: hsl(14, 88%, 65%);
+}
+
+.question h2:hover {
+    color: hsl(14, 88%, 65%);
+}
+
+.answer {
+    position: relative;
+    overflow: hidden;
+    height: 0;
+    transition: 0.3s;
+}
+
+hr {
+    background-color: hsl(240, 5%, 91%);
+    height: 2px;
+    border: none;
+    width: 350px;
+}
+
+.accordion .faq.active .answer {
+    height: 45px;
+    display: flex;
+    align-items: center;
+}
+
+.accordion .faq.active h2 {
+    font-weight: 700;
 }
