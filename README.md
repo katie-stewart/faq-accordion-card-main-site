@@ -43,5 +43,5 @@ The Javascript works, but the code is a bit untidy. Something to work on in futu
 
 ### Useful resources
 
-- [FreeCodeCamp]((https://www.freecodecamp.org/news/build-an-accordion-menu-using-html-css-and-javascript/)) - I found this post useful in structuring the accordion's HTML. 
+- [FreeCodeCamp](https://www.freecodecamp.org/news/build-an-accordion-menu-using-html-css-and-javascript/) - I found this post useful in structuring the accordion's HTML. 
 
